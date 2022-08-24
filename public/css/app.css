@@ -1,0 +1,95 @@
+body{
+    background: white;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+ul, li, p, h1, h2, h3, body, html{
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2{
+    font-size: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 1px 5px 10px -7px #2d3748;
+}
+header .left, header .right{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header .left{
+    text-transform: uppercase;
+}
+
+header .right{
+    margin-left: auto;
+}
+
+header a{
+    padding: 10px;
+    font-weight: 600;
+}
+
+.font-putih{
+    color: white;
+}
+
+.abu{
+    background: #bbbbbb;
+}
+
+.abu2{
+    background: #aaaaaa;
+}
+
+.navy{
+    background: #2c3d4f;
+}
+
+.content-home{
+    max-width: 1440px;
+    text-align: center;
+    margin: auto;
+}
+
+.content-home-atas{
+    padding: 20px 0;
+}
+
+.content-home .note{
+    margin: 10px 0;
+    padding: 20px 0;
+}
+
+.percetakan{
+    margin: 30px 0 0;
+    display: flex;
+}
+
+.percetakan .list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.percetakan .list.foto img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.percetakan .list .desc{
+    padding: 50px;
+}
