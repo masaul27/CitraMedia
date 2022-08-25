@@ -17,9 +17,8 @@
 
             <div class="list">
             <div class="desc">
-                <h1>Percetakan dan Advertising</h1>
-                <p>Citra Media Advertising bergerak di bidang percetakan dan advertising. Perusahaan kami menawarkan berbagai bentuk produk seperti: Neon Box, Baliho, Banner, Pamflet dll.
-                Beberapa perusahaan rekanan kami</p>
+                <h2>Percetakan dan Advertising</h2>
+                <p>Citra Media Advertising bergerak di bidang percetakan dan advertising. Perusahaan kami menawarkan berbagai bentuk produk seperti: Neon Box, Baliho, Banner, Pamflet dll.</p>
             </div>
             </div>
         </div>

@@ -8,8 +8,12 @@ ul, li, p, h1, h2, h3, body, html{
     margin: 0;
 }
 
-h1, h2{
+h1{
     font-size: 50px;
+}
+
+h2{
+    font-size: 35px;
 }
 
 a{
@@ -64,8 +68,8 @@ header a{
     margin: auto;
 }
 
-.content-home-atas{
-    padding: 20px 0;
+.content-home .atas{
+    padding-top: 30px;
 }
 
 .content-home .note{
@@ -75,6 +79,7 @@ header a{
 
 .percetakan{
     margin: 30px 0 0;
+    padding: 20px 0;
     display: flex;
 }
 
@@ -92,4 +97,23 @@ header a{
 
 .percetakan .list .desc{
     padding: 50px;
+}
+
+footer{
+    border-top: 1px solid #ccc;
+    padding: 30px 50px;
+}
+footer .footer-l2{
+    width: 1350px;
+    margin: auto;
+}
+
+footer .sosmed{
+    display: flex;
+    list-style: none;
+    padding: 20px 30px;
+}
+footer .sosmed li{
+    margin: 0 10px 0 0;
+    font-size: 30px;
 }
