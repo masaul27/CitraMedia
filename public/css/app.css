@@ -39,11 +39,23 @@ header .left{
 
 header .right{
     margin-left: auto;
+    color: #2c3d4f;
+}
+
+header .left .text{
+    color: #313E60;
 }
 
 header a{
     padding: 10px;
     font-weight: 600;
+}
+
+header a.contact-button{
+    background: #313E60;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 10px 20px;
 }
 
 .font-putih{
@@ -59,8 +71,40 @@ header a{
 }
 
 .navy{
-    background: #2c3d4f;
+    background: #313E60;
 }
+
+.drop{
+    position: relative;
+    display: inline-block;
+}
+
+.drop-content{
+    display: none;
+    position: absolute;
+    margin-top: 15px;
+    background-color: #f9f9f9;
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px #2d3748;
+    color: white;
+}
+
+.drop-content a{
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.drop-content a:hover{
+    background-color: #313E60;
+    color: white;
+}
+
+.left a:hover{
+    border-bottom: solid #313E60 5px;
+}
+
+.drop:hover .drop-content{display: block; background-color: white;}
 
 .content-home{
     max-width: 1440px;
@@ -70,11 +114,6 @@ header a{
 
 .content-home .atas{
     padding-top: 30px;
-}
-
-.content-home .note{
-    margin: 10px 0;
-    padding: 20px 0;
 }
 
 .percetakan{
@@ -99,21 +138,52 @@ header a{
     padding: 50px;
 }
 
+.produk-kami{
+    display: flex;
+}
+
+.rectangle{
+    width: 200px;
+    height: 300px;
+    border: 2px solid #313E60;
+    border-radius: 25px;
+    justify-content: center;
+    margin: 0 50px;
+}
+
+.rectangle .logo-content{
+    padding: 20px;
+}
+
+.rectangle .headline{
+    padding-top: 20px;
+}
+
+.list-produk{
+    padding-top: 20px;
+}
+
+.list-produk .daftar-item{
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
 footer{
     border-top: 1px solid #ccc;
     padding: 30px 50px;
+    background: #313E60;
 }
 footer .footer-l2{
-    width: 1350px;
+    width: auto;
     margin: auto;
+    color: whitesmoke;
 }
 
 footer .sosmed{
     display: flex;
     list-style: none;
     padding: 20px 30px;
-}
-footer .sosmed li{
-    margin: 0 10px 0 0;
-    font-size: 30px;
 }
